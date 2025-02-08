@@ -1,0 +1,40 @@
+#lm1{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+background-color: lightpink;
+padding: 1px;
+}
+#lm2{
+    width: 140px;
+    height: 140px;
+    margin: 30px;
+background-color: rgb(243, 8, 44);
+padding: 1px;
+}
+#lm3{
+    width: 80px;
+    height: 80px;
+    margin:30px;
+background-color: rgb(76, 119, 145);
+padding: 1px;
+}
+#parent{
+    background-color: peachpuff;
+    display: inline-block;
+    width: 300px;
+}
+#block:not(.active){
+    display: none;
+
+}    
+li{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: bisque;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+} 
+li.color{
+    background-color: mediumpurple;
+}
